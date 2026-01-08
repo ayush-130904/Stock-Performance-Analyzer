@@ -45,6 +45,7 @@ TREND: The stock is currently above its 20-day average (Bullish).
 ```
 
 ## 🧠 Logic Breakdown
-Volatility Calculation: The program calculates the percentage change of daily closing prices and determines the standard deviation to represent "Daily Risk."
-Moving Average: Uses a rolling 20-day window to smooth out price fluctuations and identify the medium-term trend.
+Volatility Calculation: The program calculates the percentage change of daily closing prices and determines the standard deviation to represent "Daily Risk."\n
+Moving Average: Uses a rolling 20-day window to smooth out price fluctuations and identify the medium-term trend.\n
 Prediction: The predicted range is calculated as:$Upper Bound = Last Price \times (1 + Volatility\%)$$Lower Bound = Last Price \times (1 - Volatility\%)$
+
