@@ -3,15 +3,23 @@ A Python-based financial analysis tool that fetches real-time market data to eva
 
 ## 🚀 Features
 Real-time Data: Integration with yfinance to fetch the latest stock prices.
+
 Technical Indicators: Calculates the 20-day Moving Average (MA20) to identify market trends.
+
 Risk Assessment: Computes daily volatility (Standard Deviation) to quantify stock risk.
+
 Predictive Analysis: Generates a predicted high/low price range for the next trading day based on current volatility.
+
 Automated Trend Logic: Provides an instant "Bullish" or "Bearish" signal based on price position relative to the moving average.
+
 
 ## 🛠️ Tech StackPython 
 3.xPandas: For data manipulation and time-series analysis.
+
 NumPy: For mathematical calculations and volatility modeling.
+
 yfinance: To download historical market data from Yahoo Finance.
+
 
 ## 📦 InstallationClone the repository:
 ```
@@ -45,7 +53,10 @@ TREND: The stock is currently above its 20-day average (Bullish).
 ```
 
 ## 🧠 Logic Breakdown
-Volatility Calculation: The program calculates the percentage change of daily closing prices and determines the standard deviation to represent "Daily Risk."\n
-Moving Average: Uses a rolling 20-day window to smooth out price fluctuations and identify the medium-term trend.\n
+Volatility Calculation: The program calculates the percentage change of daily closing prices and determines the standard deviation to represent "Daily Risk."
+
+Moving Average: Uses a rolling 20-day window to smooth out price fluctuations and identify the medium-term trend.
+
 Prediction: The predicted range is calculated as:$Upper Bound = Last Price \times (1 + Volatility\%)$$Lower Bound = Last Price \times (1 - Volatility\%)$
+
 
